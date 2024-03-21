@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    background-color: #7180d6;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main{
+    margin: auto;
+    background-color: #ffffff;
+    width: 820px;
+}
+
+.box_foto{
+    text-align: center;
+}
+
+.box_foto h1{
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.box_foto img{
+    border-radius: 200px;
+    border: 5px solid #9687e9;
+}
+
+.box_bio, .box_info, .box_aca, .box_pro{
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+h2{
+    color: #6c72c7;
+    border-bottom: 2px dashed #9e90f1;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+.box_info ul li{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.box_info span{
+    background-color: #8664d4;
+    color: #ffffff;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.box_info a{
+    background-color: #5d55c2;
+    color: #ffffff;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    background-color: #8063ce;
+}
+
+.footer{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #8a67da;
+    color: #ffffff;
+}
